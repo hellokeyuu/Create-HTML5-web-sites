@@ -1,0 +1,172 @@
+@charset "UTF-8";
+body {
+   width: 95%;
+   min-width: 900px;
+   max-width: 1000px;
+   font-family: Verdana, Geneva, sans-serif;
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0px auto;
+   position: relative;
+
+}
+
+/* Header styles */
+
+header {
+   float: left;
+   width: 100%;
+   
+}
+
+header img {
+   display: block;
+   float: left;
+   width: 10%;
+}
+
+
+/*Navigation list styles */
+
+header nav {
+   float: left;
+   width: 80%;
+   margin: 10px auto 10px -0.5%;
+}
+
+header nav li {
+   display: block;
+  
+   margin-left: 3%;
+   margin-bottom: 7px;
+   float: left;
+   padding-left: 7px;
+}
+
+header nav li a {
+   display: block;
+   width: 100%;
+   height: 50px;
+   line-height: 50px;
+   text-align: center;
+   color: black;
+   font-size: 1.5em;
+   background-color: white;
+}
+
+header nav li a:hover {
+
+   color: rgb(31, 122, 70);
+}
+
+section img {
+	width: 100%;
+    height: 400px;
+}
+section p#p1 {
+	font-size: 0.9em;
+    text-align: center;
+	width: 100%;
+    height: 80px;
+	background-color: rgb(210,234,240);
+    margin-top:0px;
+    line-height:70px;
+}
+section h1{
+	font-size: 1.4em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Field set styles */
+fieldset {
+   background-color: rgb(245, 240, 220);
+   border: 1px solid rgb(245, 240, 220);
+   float: left;
+   width: 45%;
+}
+fieldset#Info {
+	float:left;
+	margin-left:10px;
+	height:300px;
+	margin-bottom:20px;
+}
+fieldset#guestInfo {
+	float:left;
+	margin-left:10px;
+	height:300px;
+	
+	margin-bottom:20px;
+}
+
+legend {
+   
+   color: black;
+   padding: 3px 0px;
+   text-indent: 5px;
+   width: 45%;
+}
+/* Label styles */
+
+label {
+   clear: left;
+
+   float: left;
+   font-size: 0.9em;
+   margin: 7px 4% 7px 5px;
+   width: 40%;
+}
+
+/* Input control styles */
+
+input {
+   float: left;
+   font-size: 0.9em;
+   margin: 7px 0px;
+   width: 50%;
+}
+
+
+/* Selection list styles */
+
+select {
+   display: block;
+   float: left;
+   font-size: 0.9em;
+   margin: 7px 0px;
+}
+
+input[type="submit"] {
+   display: inline;
+   float: left;
+   clear:left;
+   margin-left:235px;
+   height: 40px;
+   width: 200px;
+   margin-bottom:60px;
+}
+input[type="reset"] {
+   display: inline;
+   float: left;
+   height: 40px;
+   width: 200px;
+   margin-left:20px;
+   margin-bottom:60px;
+}
+
+
+footer {
+   border-top: 1px solid rgb(130,190,240);
+   background-color: rgb(210,234,240);
+   clear: left;
+   margin-top: 20px;
+   padding: 10px 0px;
+}
+
+footer address {
+   color: rgb(130,190,240);
+   font-style: normal;
+   font-size: 0.8em;
+   text-align: center;
+}

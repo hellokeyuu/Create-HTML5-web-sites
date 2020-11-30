@@ -1,0 +1,117 @@
+@charset "UTF-8";
+body {
+   width: 95%;
+   min-width: 900px;
+   max-width: 1000px;
+   font-family: Verdana, Geneva, sans-serif;
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0px auto;
+   position: relative;
+
+}
+
+/* Header styles */
+
+header {
+   float: left;
+   width: 100%;
+   
+}
+
+header img {
+   display: block;
+   float: left;
+   width: 10%;
+}
+
+
+/*Navigation list styles */
+
+header nav {
+   float: left;
+   width: 80%;
+   margin: 10px auto 10px -0.5%;
+}
+
+header nav li {
+   display: block;
+  
+   margin-left: 3%;
+   margin-bottom: 7px;
+   float: left;
+   padding-left: 7px;
+}
+
+header nav li a {
+   display: block;
+   width: 100%;
+   height: 50px;
+   line-height: 50px;
+   text-align: center;
+   color: black;
+   font-size: 1.5em;
+   background-color: white;
+}
+
+header nav li a:hover {
+
+   color: rgb(31, 122, 70);
+}
+
+section img {
+	width: 100%;
+    height: 400px;
+}
+
+section h1{
+	font-size: 1.4em;
+    text-align: center;
+   
+    margin-bottom: 20px;
+}
+
+table.schedule th, table.schedule td{
+   border: 1px solid rgb(126,39,131);
+   font-family: Arial, Helvetica, sans-serif;
+   
+   text-align:center;
+}
+table.schedule {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+thead tr{
+	font-size: 1.4em;
+	background-color:rgb(189,62,196);
+	color:white;
+	height:70px;
+	
+}
+tbody tr{
+	font-size: 1em;
+	background-color:rgb(240,219,244);
+	color:black;
+	height:50px;
+}
+section img#l{
+	margin-top:20px;
+	width:100%;
+ 
+}
+
+footer {
+   border-top: 1px solid rgb(130,190,240);
+   background-color: rgb(210,234,240);
+   clear: left;
+   margin-top: 20px;
+   padding: 10px 0px;
+}
+
+footer address {
+   color: rgb(130,190,240);
+   font-style: normal;
+   font-size: 0.8em;
+   text-align: center;
+}
