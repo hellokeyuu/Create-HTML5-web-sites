@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name = "author" content = "Keyu Du">
+		<meta name = "description" content = "This site shows submission details in reserve page.">
+		<meta name = "keywords" content = "submission, reservation, clear">
+		<title>submission result</title>
+		<script src="form.js"></script>
+		<link href ="layout/collect.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<header>
+			<img src="Figure/logo.jpg" alt="Valley Peach" />
+			<nav>
+	            <ul>
+	               <li><a href="home.html">Home</a></li>
+	               <li><a href="sleep.html">Sleep</a></li>
+	               <li><a href="eat.html">Eat</a></li>
+	               <li><a href="do.html">Do</a></li>
+	               <li><a href="gather.html">Gather</a></li>
+	               <li><a href="contact.html">Contact</a></li>
+	               <li><a href="reserve.html">Reserve</a></li>
+	            </ul>
+	         </nav>
+		</header>
+		<section>
+		    <img alt="reserve" src="Figure/reserve.jpg">
+			<p id= "p1">Welcome to our Valley Peach!</p>
+			
+			<h1><a href="reserve.html">Back to reserve page</a></h1>
+			<button onclick ="displaySubmissions()">Display Submissions</button>
+			<button onclick ="localStorage.removeItem('bm')">Clear All</button>
+			<div style='border-style:dashed' id='myBM'>Show reservation here</div>
+		</section>
+		<footer>
+	      <address>
+	         Valley Peach &bull;
+	         Hotels & Resorts &bull;
+	         please contact <a href="mailto:valleyPeach@sina.cn?subject=
+			Comments20%on20%the20%Page">valleyPeach@sina.cn</a>.
+	      </address>
+	   </footer>
+		
+	</body>
+</html>

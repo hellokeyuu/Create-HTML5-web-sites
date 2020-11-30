@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--
+      Author:Keyu Du
+      Date:   3/11/2017
+
+      Filename:         reserve.html
+      Supporting files: logo.jpg,  home.html, sleep.html, eat.html, gather.html, contact.html
+      					reserve.html, reserve.jpg, form.js 
+
+   -->
+		<meta charset="UTF-8">
+		<title>reserve</title>
+		
+		<script src="form.js"></script>
+ 		<link href="layout/res.css" rel="stylesheet" />
+	</head>
+	
+	<body>
+		<header>
+			<img src="Figure/logo.jpg" alt="Valley Peach" />
+			<nav>
+	            <ul>
+	               <li><a href="home.html">Home</a></li>
+	               <li><a href="sleep.html">Sleep</a></li>
+	               <li><a href="eat.html">Eat</a></li>
+	               <li><a href="do.html">Do</a></li>
+	               <li><a href="gather.html">Gather</a></li>
+	               <li><a href="contact.html">Contact</a></li>
+	               <li><a href="reserve.html">Reserve</a></li>
+	            </ul>
+	         </nav>
+		</header>
+		<section>
+			<img alt="reserve" src="Figure/reserve.jpg">
+			<p>Welcome to our Valley Peach!</p>
+			<a href="collected_data.html">See my reservation</a>
+			<h1>Reservation</h1>
+			<form id="reservation" name="reservation">
+            		<fieldset id="Info">
+            			<legend>Check-in Information</legend>
+            		
+            			<p>Your Stay Dates</p>
+		            <label for="from">From</label>
+		            <input name="from" id="from"
+		                   placeholder="2017-12-30"
+		                   required="required" />
+		                   
+		            <label for="to">To</label>
+		            <input name="to" id="to"
+		                   placeholder="2017-12-31"
+		                   required="required" />
+		                   
+		                 
+		            <p>Units & Guests</p>
+		                   
+		            <label for="units">Units</label>
+		            <input name="units" id="units"
+		                   required="required" />
+		                   
+		            <label for="adults">Adults</label>
+		            <input name="adults" id="adults"
+		                   required="required" />
+		                   
+		            <label for="children">Children</label>
+		            <input name="children" id="children"
+		                    />
+            		</fieldset>
+            		
+            		<fieldset id = "guestInfo">
+            			<legend>Guest Information</legend>
+            			<p>Please complete your personal information</p>
+	                <label for="ordertype">Title *</label>
+		            		<select name="ordertype" id="ordertype">
+			               <option value="type1" selected="selected">Mr</option>
+			               <option value="type2">Ms</option>
+			               <option value="type3">Mrs</option>
+			            </select>	                   
+		            <label for="firName">First Name *</label>
+		            <input name="firName" id="firName"
+		                   required="required" />
+		        
+		            <label for="lastName">Last Name *</label>
+		            <input name="lastName" id="lastName"
+		                   required="required" />
+		                   
+		            <label for="phone">Mobile *</label>
+		            <input name="phone" id="phone"
+		                   required="required" />
+		                   
+		            <label for="email">E-mail *</label>
+		            <input type="email" id="email"
+		                   required="required" />
+            		 
+            		</fieldset>
+            		<p>
+		            <input type="submit" value="Reserve" onclick ="submitForm()"/>
+		            <input type="reset" value="Cancel" />
+		        </p>
+            </form>
+            
+            
+		</section>
+		
+		<footer>
+	      <address>
+	         Valley Peach &bull;
+	         Hotels & Resorts &bull;
+	         please contact <a href="mailto:valleyPeach@sina.cn?subject=
+			Comments20%on20%the20%Page">valleyPeach@sina.cn</a>.
+	      </address>
+	   </footer>
+
+
+</body>
+</html>
